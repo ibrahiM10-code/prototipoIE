@@ -2,7 +2,7 @@ import googleapiclient.discovery
 import googleapiclient.errors
 import json
 
-API_KEY = 'AIzaSyC-kam92VgyxI26NfhJyLM3PeDSLS_ImZQ'
+API_KEY = ''
 
 def generate_video_url(video_id: str, channel_name: str):
     yt_video_url = f"https://www.youtube.com/watch?v={video_id}&ab_channel={channel_name}"
